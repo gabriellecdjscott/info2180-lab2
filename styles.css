@@ -1,0 +1,87 @@
+#profile {
+            border-radius : 100%;
+            padding-top: 5px;
+}
+body{
+	font-size: 18px;
+	color: #2D3748;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans- serif;
+	display: grid;
+	grid-template-rows:1fr minmax(20px 100px) 1fr;
+	grid-template-columns: 75% 25%;
+
+
+}
+
+header{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end:1 ;
+	background-color:#63B3ED;
+	color: #FFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+
+
+
+main{
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end:3 ;
+	background-color:#FFFFFF;
+	color: #FFFFF;
+}
+
+aside{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end:3 ;
+	background-color:#FFFFFF;
+	color: #FFFFF;
+}
+footer{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end:4 ;
+	background-color:#2C5282;
+	color: #FFFFF;
+}
+
+
+h1{
+	font-size: 36px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+h2{
+	font-size: 32px;
+	color: #48BB78;
+
+}
+.aanddate{
+	color:#718096;
+}
+
+a{
+	color: #4299E1;
+}
+.about{
+	background-color:#E2E8F0 ;
+	padding: 10px;
+}
+.ab{
+	color: #000000;
+}
+.socm{
+	color: #48BB78;
+}
